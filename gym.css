@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+header::before{
+    background: url('sven-mieke-jO6vBWX9h9Y-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 90%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+/* header::before{            
+    background: url('sven-mieke-jO6vBWX9h9Y-unsplash.jpg');
+} */
+.left{
+    position: absolute;
+    left: 2.5vw;
+    top: 2.5vh;
+}
+.mid{
+    display: block;
+    width: 44vw;
+    margin: 2vh auto;
+    text-align: center;
+}
+.right{
+    position: absolute;
+    right: 1.5vw;
+    top: 5.5vh;
+}
+.nav{
+    margin: 4.5vh 1vw;
+}
+.nav li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 0vh 1vw
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li a:hover{
+    color: gray;
+    text-decoration: underline;
+    font-size: 24px;
+}
+.left img{
+    filter: invert(100%);
+    width: 7vw;            
+}
+.signup{
+    width: 66px;
+    height: 25px;
+    border: 1px solid #818181;
+    border-radius: 20px;
+    background-color: #a6a6a6;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    cursor: pointer;
+}
+.login{
+    width: 70px;
+    height: 25px;
+    border: 1px solid #f0ecec;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #cecece;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+}
+.signup:hover{
+    border-color: #696969;
+    background-color: #838383;
+    color: white;
+}
+.login:hover{
+    border-color: #696969;
+    background-color: #838383;
+    color: white;
+}
+.form_container{
+    border: 2px solid gray;
+    border-radius: .8rem;
+    display: block;
+    height: 58vh;
+    width: 26vw;
+    padding: 1%;
+    margin: 14vh 0vw 0vh 16vw;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(149, 149, 149, 40%);
+    box-shadow: 0px 0px 1em rgba(128, 128, 128, 0.885);
+}
+.form_container h1{
+    margin: 6% 0% 8% 0%;
+}
+.form_container input{
+    display: block;
+    width: 80%;
+    height: 2.6em;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #696969;
+    border-radius: 0.8em;
+}
+.form_container button{
+    width: 80%;
+    height: 2.8em;
+    text-align: center;
+    background-color: rgb(98, 98, 98);
+    border: 2px solid #696969;
+    border-radius: 0.8em;
+    cursor: pointer;
+    color: white;
+}
